@@ -17,3 +17,12 @@
   	text-align: center;
   	color: white;
   }
+
+h2 {
+	font-family: 'pacifico', cursive;
+}  
+
+/*  == WHAT WILL YOU LEARN*/
+#what-learn {
+	text-align: center;
+}
