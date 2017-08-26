@@ -65,3 +65,32 @@ h3 {
 #course-features i {
 	margin-top: 20px;
 }
+
+/* == INSTRUCTOR ==*/
+#instructor .left-side {
+	text-align: center;
+}
+
+.badge.social{
+	background: #95A5A6;
+	font-size: 20px;
+	height: 35px;
+	width: 35px;
+	text-align: center;
+	line-height: 35px;
+	margin-top: 5px;
+	padding: 0;
+	-webkit-border-radius: 35px;
+	.moz-border-radius: 35px;
+	border-radius: 35px;
+}
+
+.badge.social.twitter:hover{
+	background: #55ACEE;
+}
+.badge.social.linkedin:hover{
+	background: #4875b4;
+}
+.badge.social.blog:hover{
+	background: #26c281;
+}
