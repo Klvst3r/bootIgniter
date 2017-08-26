@@ -52,6 +52,16 @@ h3 {
 } 
 
 .lead {
-	
+
 	text-align: left;
+}
+
+/* == COURSE FEATURES == */
+#course-features {
+	background-color: white;
+	text-align: center;
+}
+
+#course-features i {
+	margin-top: 20px;
 }
