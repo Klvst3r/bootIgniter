@@ -5,8 +5,21 @@
  	background: url('../img/texture.png'); 
  }
 
+ .wrap {
+	padding-top: 50px;
+	padding-bottom: 50px;
+ }
+
+ .header-section {
+ 	text-align: center;
+ 	-webkit-font-smoothing: antialiased;
+  	text-rendering: optimizelegibility;
+ }
+
+
  h1 {
  	font-family: 'graduate', cursive;
+ 	
  }
 
   /*== TITLE & ENROLL == */
@@ -25,4 +38,20 @@ h2 {
 /*  == WHAT WILL YOU LEARN*/
 #what-learn {
 	text-align: center;
+}
+
+/* == COURSE TRAGET == */ 
+#course-target {
+	background-color: #BF3E11;
+	color: white;
+
+}
+h3 {
+
+	font-weight: bold;
+} 
+
+.lead {
+	
+	text-align: left;
 }
