@@ -94,3 +94,16 @@ h3 {
 .badge.social.blog:hover{
 	background: #26c281;
 }
+
+.parag-center{
+	text-align: justify;
+}
+
+.title-instructor{
+	text-align: center;
+}
+.separator{
+	margin-top: 40px;
+	margin-bottom: 15px;
+	
+}
