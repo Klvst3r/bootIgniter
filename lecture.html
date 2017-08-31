@@ -109,7 +109,7 @@
              <h2>Comentarios: </h2>
              <form>
                  <textarea class="form-control" rows="3" placeholder="Escribe aquí tu comentario..."></textarea>
-                 <p class="btn-form">
+                 <p id="btn-form">
                      <button type="submit" class="btn btn-danger btn-lg">Publicar</button>
                  </p>
              </form>
@@ -132,6 +132,21 @@
                                 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                                 consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
                                 cillum dolore eu fugiat nulla pariatur.</p>
+
+                                <p>
+                                    <button type="button" class="btn btn-primary btn-xs" data-toggle="collapse" data-target="#collapseForm" aria-expanded="false" aria-controls="collapseForm">Responder</button>
+                                </p>
+                                <!-- FORM ANSWERS -->
+                                <form class="collapse" id="collapseForm">
+                                    <textarea class="form-control" rows="3" placeholder="Escribe aquí tu resspuesta..."></textarea>
+                                    <p id="btn-form-answer">
+                                        <button type="submit" class="btn btn-danger btn-xs">Enviar</button>
+                                    </p>
+                                </form>
+
+                                <!-- END FORM ANSWERS -->
+
+
 
                                 <!-- ANSWER -->
                                 <div class="media">

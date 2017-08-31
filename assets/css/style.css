@@ -139,7 +139,10 @@ h3 {
 	background: white;
 }
 
-#discussions #btn-form {
+#discussions #btn-form, #discussions #btn-form-answer {
 	text-align: right;
 	margin-top: 5px
 }
+
+
+/* == FORM ANSWER == */
