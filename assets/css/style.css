@@ -129,3 +129,17 @@ h3 {
 #footer a:hover {
 	color: #f9690e;
 }
+
+
+/* == lecture.html == */
+
+/* == DISCUSSIOMS == */
+
+#discussions {
+	background: white;
+}
+
+#discussions #btn-form {
+	text-align: right;
+	margin-top: 5px
+}
