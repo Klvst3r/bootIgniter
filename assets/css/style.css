@@ -145,4 +145,11 @@ h3 {
 }
 
 
-/* == FORM ANSWER == */
+/* == ADMIN_COURSE  == */
+
+/* == ADMIN COURSE == */
+
+#admin-course .container {
+	background: white;
+	min-height: 600px;
+}
