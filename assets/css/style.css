@@ -153,3 +153,7 @@ h3 {
 	background: white;
 	min-height: 600px;
 }
+
+#admin-course .panel-heading a {
+	color: white;
+}
