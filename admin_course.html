@@ -160,13 +160,34 @@
                     </form>
                   </div><!-- .panel-body -->
                 </div><!-- .form-add-section -->
-                <div role="tabpanel" class="tab-pane" id="form-add-lecture">
-                  Añadir nueva clase
+                <div role="tabpanel" class="panel panel-default tab-pane" id="form-add-lecture">
+                  <div class="panel-body">
+                    <h3>Añadir nueva Clase</h3>
+                    <form>
+                      <div class="form-group">
+                        <label for="inputLectureTitle">Título</label>
+                        <input type="text" class="form-control" id="inputLectureTitle" placeholder="Escribe el título de la lección...">
+                      </div>
+
+                      <div class="form-group">
+                        <label for="inputLectureDescription">Descripción</label>
+                        <textarea class="form-control" id="inputLectureDescription" placeholder="Escribe la descripción de esta lección" rows="3"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputLectureVideo">URL del vídeo</label>
+                        <input type="text" class="form-control" id="inputLectureVideo" placeholder="Escribe la URL de Youtube del vídeo">
+                      </div>
+                      <div class="form-group">
+                        <label for="inputLectureDuration">Duración de la lección</label>
+                        <input type="text" class="form-control" id="inputLectureDuration" placeholder="Escribe los minutos y segundos que dura el vídeo con formato MM:SS. Ej. 05:35">
+                      </div>
+                    </form>
+                    <button type="submit" class="btn btn-info">Añadir</button> o 
+                    <a href="" >Finalizar</a>
+                  </div>
                 </div><!-- .form-add-lecture -->
               </div><!-- .tab-content -->
               <!-- END TAB CONTENT -->
-
-
 
             </div><!-- .col -->
           </div><!-- .row -->
