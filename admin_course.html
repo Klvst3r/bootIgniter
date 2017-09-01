@@ -150,11 +150,12 @@
         <script src="assets/js/bootstrap.min.js"></script>
 
         <script type="text/javascript">
-        $("#btnTabAdmin").click(function(){
+          $("#btnTabAdmin").click(function(){
           $("#tabAdmin1").removeClass();
           $("#tabAdmin3").removeClass();
-          $("#tabAdmin2").removeClass().addClass("active");
+          $("#tabAdmin2").removeClass().addClass("active").trigger('click');
         });
+
         </script>
 
         
